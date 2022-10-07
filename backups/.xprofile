@@ -1,0 +1,5 @@
+#!/bin/sh
+#Command example: "cvt 1920x1000 60" in terminal will give you modeline to pasted below.
+xrandr --newmode "1920x957_60.00"  151.50  1920 2032 2232 2544  957 960 970 993 -hsync +vsync
+xrandr --addmode Virtual1 1920x957_60.00
+xrandr --output Virtual1 --mode 1920x957_60.00

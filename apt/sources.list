@@ -1,0 +1,65 @@
+#-----------------------------------------------------------------------#
+#                   OFFICIAL DEBIAN REPOS                    			#
+#-----------------------------------------------------------------------#
+
+###### Debian Main Testing Repos
+deb [signed-by=/usr/share/keyrings/debian-testing-archive-keyring.gpg] http://deb.debian.org/debian/ testing main contrib non-free
+deb-src [signed-by=/usr/share/keyrings/debian-testing-archive-keyring.gpg] http://deb.debian.org/debian/ testing main contrib non-free
+
+deb [signed-by=/usr/share/keyrings/debian-archive-keyring.gpg] http://deb.debian.org/debian/ testing-updates main contrib non-free
+deb-src [signed-by=/usr/share/keyrings/debian-archive-keyring.gpg] http://deb.debian.org/debian/ testing-updates main contrib non-free
+
+deb [signed-by=/usr/share/keyrings/debian-archive-keyring.gpg] http://deb.debian.org/debian-security testing-security main
+deb-src [signed-by=/usr/share/keyrings/debian-archive-keyring.gpg] http://deb.debian.org/debian-security testing-security main
+
+###Stable for apps not available in testing or unstable
+deb [signed-by=/usr/share/keyrings/debian-stable-archive-keyring.gpg] http://deb.debian.org/debian/ stable main non-free contrib
+deb-src [signed-by=/usr/share/keyrings/debian-stable-archive-keyring.gpg] http://deb.debian.org/debian/ stable main non-free contrib
+
+deb [signed-by=/usr/share/keyrings/debian-stable-updates-archive-keyring.gpg] http://deb.debian.org/debian/ stable-updates main contrib non-free
+deb-src [signed-by=/usr/share/keyrings/debian-stable-updates-archive-keyring.gpg] http://deb.debian.org/debian/ stable-updates main contrib non-free
+
+deb [signed-by=/usr/share/keyrings/debian-security-archive-keyring.gpg] http://security.debian.org/debian-security stable-security main contrib non-free
+deb-src [signed-by=/usr/share/keyrings/debian-security-archive-keyring.gpg] http://security.debian.org/debian-security stable-security main contrib non-free
+
+###Unstable for apps not available in testing branch.
+deb [signed-by=/usr/share/keyrings/debian-unstable-archive-keyring.gpg] http://deb.debian.org/debian/ unstable main non-free contrib
+deb-src [signed-by=/usr/share/keyrings/debian-unstable-archive-keyring.gpg] http://deb.debian.org/debian/ unstable main non-free contrib
+
+#-----------------------------------------------------------------------#
+#                      UNOFFICIAL  REPOS                       			#
+#-----------------------------------------------------------------------#
+###### 3rd Party Binary Repos
+
+###Kali Linux Repos(for hacking)
+deb [signed-by=/usr/share/keyrings/kali-archive-keyring.gpg] http://http.kali.org/kali kali-rolling main non-free contrib
+deb-src [signed-by=/usr/share/keyrings/kali-archive-keyring.gpg] http://http.kali.org/kali kali-rolling main non-free contrib
+
+###Debian Multimedia
+deb [arch=amd64,i386, signed-by=/usr/share/keyrings/debian-multimedia-archive-keyring.gpg] http://www.deb-multimedia.org bullseye main non-free
+
+###Enpass Password Manager
+deb [signed-by=/usr/share/keyrings/enpass-archive-keyring.gpg] http://repo.sinew.in/ stable main
+
+###Open Shot
+deb [signed-by=/usr/share/keyrings/openshot-archive-keyring.gpg] http://ppa.launchpad.net/openshot.developers/ppa/ubuntu bionic main
+deb-src [signed-by=/usr/share/keyrings/openshot-archive-keyring.gpg] http://ppa.launchpad.net/openshot.developers/ppa/ubuntu bionic main
+
+###Paper GTK Theme
+deb [signed-by=/usr/share/keyrings/paper-gtk-theme-archive-keyring.gpg] http://ppa.launchpad.net/snwh/pulp/ubuntu bionic main
+deb-src [signed-by=/usr/share/keyrings/paper-gtk-theme-archive-keyring.gpg] http://ppa.launchpad.net/snwh/pulp/ubuntu bionic main
+
+###Papirus GTK Theme
+deb [signed-by=/usr/share/keyrings/papirus-archive-keyring.gpg] http://ppa.launchpad.net/papirus/papirus/ubuntu bionic main
+deb-src [signed-by=/usr/share/keyrings/papirus-archive-keyring.gpg] http://ppa.launchpad.net/papirus/papirus/ubuntu bionic main
+
+###Spotify
+deb [signed-by=/usr/share/keyrings/spotify-archive-keyring.gpg] http://repository.spotify.com stable non-free
+deb-src [signed-by=/usr/share/keyrings/spotify-archive-keyring.gpg] http://repository.spotify.com stable non-free
+
+###Wine
+deb [signed-by=/usr/share/keyrings/wine-archive-keyring.gpg] https://dl.winehq.org/wine-builds/debian/ sid main
+
+###Sublime Text
+deb [signed-by=/usr/share/keyrings/sublime-text-archive-keyring.gpg] https://download.sublimetext.com/ apt/stable/
+

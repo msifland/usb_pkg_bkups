@@ -1,0 +1,7 @@
+UUID=d799719b-cf80-4616-b18d-ab4baabe939b     /       ext4    errors=remount-ro 0       1
+
+UUID=f417d30a-7c2a-4971-bfde-78d9f78e9699     /home   ext4    defaults        0       2
+
+/dev/sr0        /media/cdrom0   udf,iso9660 user,noauto     0       0
+
+UUID=287b1c7d-bcb9-4f64-96e0-6a5530c42ea7    /boot    ext4    defaults    0    2
