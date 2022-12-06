@@ -80,6 +80,7 @@ calendar
 chromium
 chromium-common
 chromium-sandbox
+cifs-utils
 clamav
 clamav-base
 clamav-freshclam
@@ -87,7 +88,7 @@ cmake
 cmake-data
 coinor-libcbc3:amd64
 coinor-libcgl1:amd64
-coinor-libclp1
+coinor-libclp1:amd64
 coinor-libcoinmp1v5:amd64
 coinor-libcoinutils3v5:amd64
 coinor-libosi1v5:amd64
@@ -147,7 +148,6 @@ desktop-base
 desktop-file-utils
 dh-autoreconf
 dh-dkms
-dh-elpa-helper
 dh-exec
 dh-python
 dh-strip-nondeterminism
@@ -309,6 +309,7 @@ glib-networking:i386
 glib-networking-common
 glib-networking-services
 gnome-accessibility-themes
+gnome-disk-utility
 gnome-icon-theme
 gnome-keyring
 gnome-keyring-pkcs11:amd64
@@ -338,6 +339,7 @@ grub2
 grub2-common
 gsettings-desktop-schemas
 gsfonts
+gsmartcontrol
 gstreamer1.0-gl:amd64
 gstreamer1.0-gtk3:amd64
 gstreamer1.0-libav:amd64
@@ -404,6 +406,7 @@ kali-archive-keyring
 kbuild
 kernel-wedge
 keyboard-configuration
+keyutils
 klibc-utils
 kmod
 krb5-locales
@@ -427,6 +430,7 @@ libaa1:amd64
 libaa1:i386
 libaacs0:amd64
 libabsl20220623:amd64
+libabsl20220623:i386
 libabw-0.1-1:amd64
 libaccountsservice0:amd64
 libacl1:amd64
@@ -498,6 +502,8 @@ libavcodec59:amd64
 libavcodec59:i386
 libavfilter8:amd64
 libavformat59:amd64
+libavif15:amd64
+libavif15:i386
 libavutil56:amd64
 libavutil57:amd64
 libavutil57:i386
@@ -538,7 +544,7 @@ libboost-iostreams1.74.0:amd64
 libboost-locale1.74.0:amd64
 libboost-thread1.74.0:amd64
 libbox2d2:amd64
-libbpf0:amd64
+libbpf1:amd64
 libbrlapi0.8:amd64
 libbrotli1:amd64
 libbrotli1:i386
@@ -560,7 +566,7 @@ libc6-i386
 libc6-x32
 libcaca0:amd64
 libcaca0:i386
-libcairo-gobject-perl:amd64
+libcairo-gobject-perl
 libcairo-gobject2:amd64
 libcairo-gobject2:i386
 libcairo-perl
@@ -596,7 +602,7 @@ libcholmod3:amd64
 libchromaprint1:amd64
 libcjson1:amd64
 libclamav9:amd64
-libclone-perl
+libclone-perl:amd64
 libclucene-contribs1v5:amd64
 libclucene-core1v5:amd64
 libcodec2-1.0:amd64
@@ -648,6 +654,7 @@ libdc1394-25:amd64
 libdca0:amd64
 libdconf1:amd64
 libde265-0:amd64
+libde265-0:i386
 libdebconfclient0:amd64
 libdebhelper-perl
 libdecor-0-0:amd64
@@ -739,8 +746,8 @@ libfile-find-rule-perl
 libfile-listing-perl
 libfile-mimeinfo-perl
 libfile-stripnondeterminism-perl
-libflac8:amd64
-libflac8:i386
+libflac12:amd64
+libflac12:i386
 libflite1:amd64
 libfluidsynth3:amd64
 libflute-java
@@ -764,6 +771,8 @@ libfuse3-3:amd64
 libgail-3-0:amd64
 libgail-common:amd64
 libgail18:amd64
+libgav1-1:amd64
+libgav1-1:i386
 libgbm1:amd64
 libgbm1:i386
 libgcc-10-dev:amd64
@@ -802,7 +811,7 @@ libgl1-mesa-dri:i386
 libglapi-mesa:amd64
 libglapi-mesa:i386
 libgles2:amd64
-libglib-object-introspection-perl:amd64
+libglib-object-introspection-perl
 libglib-perl:amd64
 libglib2.0-0:amd64
 libglib2.0-0:i386
@@ -843,14 +852,15 @@ libgprofng0:amd64
 libgraphene-1.0-0:amd64
 libgraphite2-3:amd64
 libgraphite2-3:i386
-libgs9:amd64
-libgs9-common
+libgs-common
+libgs10:amd64
+libgs10-common
 libgsm1:amd64
 libgsm1:i386
 libgsoap-2.8.117:amd64
 libgssapi-krb5-2:amd64
 libgssapi-krb5-2:i386
-libgssdp-1.2-0:amd64
+libgssdp-1.6-0:amd64
 libgstreamer-gl1.0-0:amd64
 libgstreamer-plugins-bad1.0-0:amd64
 libgstreamer-plugins-base1.0-0:amd64
@@ -876,7 +886,7 @@ libgts-0.7-5:amd64
 libgucharmap-2-90-7:amd64
 libgudev-1.0-0:amd64
 libgudev-1.0-0:i386
-libgupnp-1.2-1:amd64
+libgupnp-1.6-0:amd64
 libgupnp-igd-1.0-4:amd64
 libgusb2:amd64
 libgutenprint-common
@@ -889,6 +899,7 @@ libharfbuzz-icu0:amd64
 libharfbuzz0b:amd64
 libharfbuzz0b:i386
 libheif1:amd64
+libheif1:i386
 libhogweed5:amd64
 libhogweed6:amd64
 libhogweed6:i386
@@ -912,8 +923,8 @@ libib-util:amd64
 libiberty-dev:amd64
 libical3:amd64
 libice6:amd64
-libicu71:amd64
-libicu71:i386
+libicu72:amd64
+libicu72:i386
 libid3tag0:amd64
 libidn12:amd64
 libidn2-0:amd64
@@ -946,7 +957,6 @@ libiw30:amd64
 libjack-jackd2-0:amd64
 libjack-jackd2-0:i386
 libjansson4:amd64
-libjavascriptcoregtk-4.0-18:amd64
 libjavascriptcoregtk-4.1-0:amd64
 libjaxp1.3-java
 libjbig0:amd64
@@ -1003,8 +1013,8 @@ liblerc4:i386
 liblibreoffice-java
 liblightdm-gobject-1-0:amd64
 liblilv-0-0:amd64
-libllvm14:amd64
-libllvm14:i386
+libllvm15:amd64
+libllvm15:i386
 liblmdb0:amd64
 libloader-java
 liblocale-gettext-perl
@@ -1135,7 +1145,7 @@ libnss-mdns:amd64
 libnss-nis:amd64
 libnss-nisplus:amd64
 libnss3:amd64
-libntfs-3g89
+libntfs-3g89:amd64
 libnuma-dev:amd64
 libnuma1:amd64
 libnuma1:i386
@@ -1209,13 +1219,14 @@ libpcre2-8-0:i386
 libpcre2-dev:amd64
 libpcre2-posix3:amd64
 libpcre3:amd64
+libpcrecpp0v5:amd64
 libpcsclite1:amd64
 libpdfbox-java
 libpeas-1.0-0:amd64
 libpeas-common
 libpentaho-reporting-flow-engine-java
 libperl-dev:amd64
-libperl5.34:amd64
+libperl5.36:amd64
 libpgm-5.3-0:amd64
 libpipeline1:amd64
 libpipewire-0.3-0:amd64
@@ -1223,6 +1234,7 @@ libpipewire-0.3-common
 libpixie-java
 libpixman-1-0:amd64
 libpixman-1-0:i386
+libpkgconf3:amd64
 libplacebo208:amd64
 libplist3:amd64
 libplymouth5:amd64
@@ -1452,9 +1464,9 @@ libteckit0:amd64
 libtevent0:amd64
 libtexlua53-5:amd64
 libtexluajit2:amd64
-libtext-charwidth-perl
+libtext-charwidth-perl:amd64
 libtext-glob-perl
-libtext-iconv-perl
+libtext-iconv-perl:amd64
 libtext-wrapi18n-perl
 libtfm1:amd64
 libthai-data
@@ -1564,7 +1576,6 @@ libwayland-egl1:i386
 libwayland-server0:amd64
 libwayland-server0:i386
 libwbclient0:amd64
-libwebkit2gtk-4.0-37:amd64
 libwebkit2gtk-4.1-0:amd64
 libwebp7:amd64
 libwebp7:i386
@@ -1678,7 +1689,7 @@ libxklavier16:amd64
 libxml-commons-external-java
 libxml-commons-resolver1.1-java
 libxml-java
-libxml-parser-perl:amd64
+libxml-parser-perl
 libxml-twig-perl
 libxml-xpathengine-perl
 libxml2:amd64
@@ -1718,6 +1729,8 @@ libxz-java
 libyajl2:amd64
 libyaml-0-2:amd64
 libyelp0:amd64
+libyuv0:amd64
+libyuv0:i386
 libz-mingw-w64
 libz3-4:amd64
 libz3-4:i386
@@ -1736,16 +1749,16 @@ lightdm
 lightdm-gtk-greeter
 lightdm-settings
 linux-base
-linux-compiler-gcc-11-x86
+linux-compiler-gcc-12-x86
 linux-compiler-gcc-9-x86
-linux-headers-5.19.0-2-amd64
-linux-headers-5.19.0-2-common
 linux-headers-5.3.0-3-amd64
 linux-headers-5.3.0-3-common
+linux-headers-6.0.0-5-amd64
+linux-headers-6.0.0-5-common
 linux-headers-amd64
 linux-image-5.3.0-3-amd64
-linux-kbuild-5.19
 linux-kbuild-5.3
+linux-kbuild-6.0
 linux-libc-dev:amd64
 locales
 login
@@ -1853,6 +1866,8 @@ ocl-icd-libopencl1:amd64
 ocl-icd-libopencl1:i386
 openjdk-11-jre:amd64
 openjdk-11-jre-headless:amd64
+openjdk-17-jre:amd64
+openjdk-17-jre-headless:amd64
 openjdk-18-jre:amd64
 openjdk-18-jre-headless:amd64
 openprinting-ppds
@@ -1876,13 +1891,15 @@ pci.ids
 pciutils
 perl
 perl-base
-perl-modules-5.34
+perl-modules-5.36
 perl-openssl-defaults:amd64
 perl-tk
 pinentry-curses
 pinentry-gnome3
 pkexec
-pkg-config
+pkg-config:amd64
+pkgconf:amd64
+pkgconf-bin
 pluma
 pluma-common
 plymouth
@@ -2038,6 +2055,7 @@ sgml-base
 sgml-data
 shared-mime-info
 slick-greeter
+smartmontools
 snapd
 software-properties-common
 sound-icons
