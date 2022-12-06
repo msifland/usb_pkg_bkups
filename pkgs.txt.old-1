@@ -318,6 +318,7 @@ gnome-themes-extra-data
 gnupg
 gnupg-l10n
 gnupg-utils
+google-chrome-stable
 gparted
 gparted-common
 gpg
@@ -562,7 +563,7 @@ libcaca0:i386
 libcairo-gobject-perl:amd64
 libcairo-gobject2:amd64
 libcairo-gobject2:i386
-libcairo-perl:amd64
+libcairo-perl
 libcairo2:amd64
 libcairo2:i386
 libcairomm-1.0-1v5:amd64
@@ -674,6 +675,7 @@ libdrm-radeon1:amd64
 libdrm-radeon1:i386
 libdrm2:amd64
 libdrm2:i386
+libduktape207:amd64
 libdv4:amd64
 libdv4:i386
 libdvdnav4:amd64
@@ -1889,6 +1891,7 @@ po-debconf
 pocketsphinx-en-us
 policykit-1
 polkitd
+polkitd-pkla
 poppler-data
 poppler-utils
 powermgmt-base
