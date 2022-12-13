@@ -1282,9 +1282,14 @@ libqt5gui5:amd64
 libqt5network5:amd64
 libqt5opengl5:amd64
 libqt5printsupport5:amd64
+libqt5qml5:amd64
+libqt5qmlmodels5:amd64
+libqt5quick5:amd64
 libqt5sql5:amd64
 libqt5sql5-sqlite:amd64
 libqt5svg5:amd64
+libqt5waylandclient5:amd64
+libqt5waylandcompositor5:amd64
 libqt5widgets5:amd64
 libqt5x11extras5:amd64
 libqt5xml5:amd64
@@ -2018,6 +2023,7 @@ python3.10-minimal
 qbittorrent
 qt5-gtk-platformtheme:amd64
 qttranslations5-l10n
+qtwayland5:amd64
 quilt
 rake
 readline-common
