@@ -450,6 +450,30 @@ export ILCOLOR3=$ILCOLOR3
 export ILCOLOR4=$ILCOLOR4
 export ILRESTORE=$ILRESTORE
 
+if ! dpkg --get-selections | awk '{print $1}' | grep -xq "screenfetch"; then
+	echo
+	echo "screenfetch not found, installing now. . . "
+	sleep 1
+	echo "spike" | sudo -S apt install screenfetch
+fi
+if ! dpkg --get-selections | awk '{print $1}' | grep -xq "pv"; then
+	echo
+	echo "pv not found, installing now. . . "
+	sleep 1
+	echo "spike" | sudo -S apt install pv
+fi
+if ! dpkg --get-selections | awk '{print $1}' | grep -xq "jshon"; then
+	echo
+	echo "jshon not found, installing now. . . "
+	sleep 1
+	echo "spike" | sudo -S apt install jshon
+fi
+if ! dpkg --get-selections | awk '{print $1}' | grep -xq "ncal"; then
+	echo
+	echo "ncal not found, installing now. . . "
+	sleep 1
+	echo "spike" | sudo -S apt install ncal
+fi
 ##################Peronal Greeting######################
 $HOME/scripts/now
 # Color ranmdom number variables are calculated at the top of file -c$num1,$num2
@@ -481,7 +505,7 @@ alias apt-sources="subl /etc/apt/sources.list"
 alias apt-preferences="subl /etc/apt/preferences"
 alias redo='sudo $(fc -ln -1)'
 alias update-grub="echo 'running grub-mkconfig -o /boot/grub/grub.cfg'; sudo grub-mkconfig -o /boot/grub/grub.cfg"
-
+alias linux-usb-update="clear; echo \"Running alias for 'linux-usb-startup-git-pull'\"; sleep 1; $HOME/scripts/linux-usb-startup-git-pull"
 ############# Paths #####################
 export PATH="$HOME/scripts:$PATH"
 export PATH="$HOME/scripts/kernel_scripts:$PATH"
@@ -551,3 +575,5 @@ export PS1="
 \e[$ILCOLOR4\]\h⚡\e[$ILCOLOR3\]\u𒁍𒀖  \e[$ILCOLOR2\]\w\[\e[36m\]\`parse_git_branch\`\[\e[m\]\e[$ILCOLOR1\]\n      └──╼➤\\$\\$\\$\e[$ILRESTORE\] "
 # blesh, bash syntax highlighting.
 [[ ${BLE_VERSION-} ]] && ble-attach
+
+#[ -f ~/.fzf.bash ] && source ~/.fzf.bash

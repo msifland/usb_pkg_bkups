@@ -40,3 +40,6 @@
 
 # Update ble.sh(bash syntax highlighting) every week
 30 0 * * 2 /home/msifland/scripts/cron_scripts/blesh-update-run
+
+# Purge old kernels once a month
+0 0 15 * * /home/msifland/scripts/cron_scripts/kernel-purge-auto-run

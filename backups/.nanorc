@@ -1,0 +1,5 @@
+# Configuration file for nano. These allow softwrapping on all the time.
+
+set nowrap
+set softwrap
+set linenumbers

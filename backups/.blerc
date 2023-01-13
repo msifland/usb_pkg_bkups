@@ -468,3 +468,14 @@ blehook/eval-after-load keymap_vi blerc/vim-load-hook
 #bleopt internal_exec_type=gexec
 #bleopt internal_suppress_bash_output=1
 #bleopt internal_ignoreeof_trap='Use "exit" to leave the shell.'
+
+# Diplays elapsed time for a command
+ble-import contrib/prompt-elapsed
+bleopt prompt_rps1='\g{fg=69,italic}\q{contrib/elapsed}'
+
+# Setup fzf
+_ble_contrib_fzf_base=$HOME/.fzf
+ble-import -d contrib/fzf-completion
+ble-import -d contrib/fzf-key-bindings
+
+
