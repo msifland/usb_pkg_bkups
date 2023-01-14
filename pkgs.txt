@@ -1487,7 +1487,8 @@ libtheora0:amd64
 libtheora0:i386
 libtie-ixhash-perl
 libtiff5:amd64
-libtiff5:i386
+libtiff6:amd64
+libtiff6:i386
 libtimedate-perl
 libtinfo6:amd64
 libtinfo6:i386
