@@ -53,10 +53,6 @@ deb-src [signed-by=/usr/share/keyrings/paper-gtk-theme-archive-keyring.gpg] http
 deb [signed-by=/usr/share/keyrings/papirus-archive-keyring.gpg] http://ppa.launchpad.net/papirus/papirus/ubuntu bionic main
 deb-src [signed-by=/usr/share/keyrings/papirus-archive-keyring.gpg] http://ppa.launchpad.net/papirus/papirus/ubuntu bionic main
 
-###Spotify
-deb [signed-by=/usr/share/keyrings/spotify-archive-keyring.gpg] http://repository.spotify.com stable non-free
-deb-src [signed-by=/usr/share/keyrings/spotify-archive-keyring.gpg] http://repository.spotify.com stable non-free
-
 ###Wine
 deb [signed-by=/usr/share/keyrings/wine-archive-keyring.gpg] https://dl.winehq.org/wine-builds/debian/ sid main
 
