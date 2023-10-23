@@ -497,14 +497,12 @@ libavahi-core7:amd64
 libavahi-glib1:amd64
 libavc1394-0:amd64
 libavc1394-0:i386
-libavcodec58:amd64
 libavcodec59:amd64
 libavcodec59:i386
 libavfilter8:amd64
 libavformat59:amd64
 libavif15:amd64
 libavif15:i386
-libavutil56:amd64
 libavutil57:amd64
 libavutil57:i386
 libayatana-appindicator3-1
@@ -1445,7 +1443,6 @@ libsub-override-perl
 libsuitesparseconfig5:amd64
 libsvtav1enc1:amd64
 libsvtav1enc1:i386
-libswresample3:amd64
 libswresample4:amd64
 libswresample4:i386
 libswscale6:amd64
