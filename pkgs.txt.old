@@ -309,7 +309,6 @@ gpg-wks-server
 gpgconf
 gpgsm
 gpgv
-graphviz
 grep
 groff-base
 grub-common
@@ -551,6 +550,7 @@ libcanberra-gtk3-0:amd64
 libcanberra-gtk3-module:amd64
 libcanberra-pulse:amd64
 libcanberra0:amd64
+libcap-dev:amd64
 libcap-ng-dev:amd64
 libcap-ng0:amd64
 libcap2:amd64
@@ -844,7 +844,6 @@ libgupnp-igd-1.6-0:amd64
 libgusb2:amd64
 libgutenprint-common
 libgutenprint9
-libgvc6
 libhandy-1-0:amd64
 libharfbuzz-icu0:amd64
 libharfbuzz0b:amd64
@@ -1435,6 +1434,10 @@ libtk8.6:amd64
 libtommath1:amd64
 libtool
 libtorrent-rasterbar2.0:amd64
+libtraceevent-dev:amd64
+libtraceevent1:amd64
+libtracefs-dev:amd64
+libtracefs1:amd64
 libtry-tiny-perl
 libts0:amd64
 libtsan0:amd64
@@ -1693,15 +1696,12 @@ lightdm-gtk-greeter
 lightdm-settings
 linux-base
 linux-compiler-gcc-12-x86
-linux-compiler-gcc-13-x86
 linux-headers-6.0.0-5-amd64
 linux-headers-6.0.0-5-common
-linux-headers-6.5.0-2-amd64
-linux-headers-6.5.0-2-common
-linux-headers-amd64
 linux-image-6.0.0-5-amd64
+linux-image-6.5.0-2-amd64
+linux-image-amd64
 linux-kbuild-6.0
-linux-kbuild-6.5.0-2
 linux-libc-dev:amd64
 lm-sensors
 locales
@@ -1714,6 +1714,7 @@ lsb-release
 lsof
 lynx
 lynx-common
+lz4
 m4
 mailcap
 make
@@ -1805,6 +1806,7 @@ p7zip
 p7zip-full
 packagekit
 packagekit-tools
+pahole
 parted
 passwd
 patch
@@ -1918,6 +1920,7 @@ python3-pyudev
 python3-requests
 python3-roman
 python3-setproctitle:amd64
+python3-setuptools
 python3-six
 python3-smbc
 python3-snowballstemmer
