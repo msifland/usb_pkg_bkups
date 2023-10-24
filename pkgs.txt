@@ -1749,11 +1749,12 @@ lightdm-gtk-greeter
 lightdm-settings
 linux-base
 linux-compiler-gcc-12-x86
+linux-headers-5.4.7-msi
 linux-headers-6.0.0-5-amd64
 linux-headers-6.0.0-5-common
+linux-headers-amd64
+linux-image-5.4.7-msi
 linux-image-6.0.0-5-amd64
-linux-image-6.5.0-2-amd64
-linux-image-amd64
 linux-kbuild-6.0
 linux-libc-dev:amd64
 lm-sensors
