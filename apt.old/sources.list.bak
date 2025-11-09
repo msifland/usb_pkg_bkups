@@ -31,10 +31,6 @@ deb-src [signed-by=/usr/share/keyrings/debian-unstable-archive-keyring.gpg] http
 #-----------------------------------------------------------------------#
 ###### 3rd Party Binary Repos
 
-###Kali Linux Repos(for hacking)
-deb [signed-by=/usr/share/keyrings/kali-archive-keyring.gpg] http://http.kali.org/kali kali-rolling main non-free contrib
-deb-src [signed-by=/usr/share/keyrings/kali-archive-keyring.gpg] http://http.kali.org/kali kali-rolling main non-free contrib
-
 ###Debian Multimedia
 deb [arch=amd64,i386, signed-by=/usr/share/keyrings/debian-multimedia-archive-keyring.gpg] http://www.deb-multimedia.org bullseye main non-free
 
