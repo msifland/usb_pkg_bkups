@@ -1034,12 +1034,10 @@ libinput-bin
 libinput10:amd64
 libio-compress-brotli-perl
 libio-html-perl
-libio-pty-perl
 libio-socket-ssl-perl
 libio-stringy-perl
 libip4tc2:amd64
 libip6tc2:amd64
-libipc-run-perl
 libipc-system-simple-perl
 libisc-export1100:amd64
 libisl23:amd64
@@ -2114,7 +2112,6 @@ postgresql-18-jit
 postgresql-client-18
 postgresql-client-common
 postgresql-common
-postgresql-common-dev
 powermgmt-base
 powertop
 ppp

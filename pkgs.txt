@@ -2227,7 +2227,6 @@ python3-rich
 python3-roman-numerals
 python3-setproctitle:amd64
 python3-setuptools
-python3-six
 python3-smbc
 python3-sniffio
 python3-snowballstemmer
