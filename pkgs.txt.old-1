@@ -57,8 +57,6 @@ bluetooth
 bluez
 bluez-firmware
 bluez-obexd
-boinc-client
-boinc-virtualbox
 bsd-mailx
 bsdextrautils
 bsdmainutils
@@ -171,7 +169,6 @@ diffutils
 dirmngr
 distro-info
 distro-info-data
-dkms
 dmidecode
 dmsetup
 dns-root-data
@@ -455,7 +452,6 @@ john-data
 jshon
 kali-archive-keyring
 kali-defaults
-kbuild
 kernel-wedge
 keyboard-configuration
 keyutils
@@ -594,7 +590,6 @@ libblockdev3:amd64
 libbluetooth3:amd64
 libbluray3:amd64
 libbluray3:i386
-libboinc7t64:amd64
 libboost-iostreams1.83.0:amd64
 libboost-locale1.83.0:amd64
 libboost-thread1.83.0:amd64
@@ -1242,7 +1237,6 @@ libnma-common
 libnma0:amd64
 libnorm1t64:amd64
 libnorm1t64:i386
-libnotify-bin
 libnotify4:amd64
 libnpth0t64:amd64
 libnsl2:amd64
@@ -2372,11 +2366,6 @@ vdpau-driver-all:amd64
 vdpau-driver-all:i386
 vim-common
 vim-tiny
-virtualbox-dkms
-virtualbox-guest-additions-iso
-virtualbox-guest-utils
-virtualbox-guest-x11
-virtualbox-source
 webp-pixbuf-loader:amd64
 wget
 whiptail
@@ -2433,7 +2422,6 @@ xserver-xorg-video-intel
 xserver-xorg-video-nouveau
 xserver-xorg-video-radeon
 xserver-xorg-video-vesa
-xserver-xorg-video-vmware
 xterm
 xxd
 xz-utils
