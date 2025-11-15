@@ -80,6 +80,7 @@ caja-rename
 caja-sendto
 caja-wallpaper
 calendar
+cargo
 chromium
 chromium-common
 chromium-sandbox
@@ -89,6 +90,8 @@ clamav-base
 clamav-daemon
 clamav-freshclam
 clamdscan
+clang-19
+clang-tools-19
 cmake
 cmake-data
 coinor-libcbc3.1:amd64
@@ -313,6 +316,7 @@ gcc-multilib
 gcc-x86-64-linux-gnu
 gcr
 gcr4
+gdb
 genisoimage
 geoclue-2.0
 gettext
@@ -652,6 +656,10 @@ libchromaprint1:i386
 libcjson1:amd64
 libcjson1:i386
 libclamav12:amd64
+libclang-common-19-dev:amd64
+libclang-cpp19
+libclang-rt-19-dev
+libclang1-19
 libclone-perl:amd64
 libcloudproviders0:amd64
 libclucene-contribs1t64:amd64
@@ -712,6 +720,8 @@ libde265-0:amd64
 libde265-0:i386
 libdebconfclient0:amd64
 libdebhelper-perl
+libdebuginfod-common
+libdebuginfod1t64:amd64
 libdecor-0-0:amd64
 libdecor-0-0:i386
 libdecor-0-plugin-1-cairo:amd64
@@ -841,6 +851,7 @@ libgav1-1:amd64
 libgav1-1:i386
 libgbm1:amd64
 libgbm1:i386
+libgc1:amd64
 libgcc-10-dev:amd64
 libgcc-11-dev:amd64
 libgcc-12-dev:amd64
@@ -872,6 +883,7 @@ libgio-2.0-dev:amd64
 libgio-2.0-dev-bin
 libgirepository-1.0-1:amd64
 libgirepository-2.0-0:amd64
+libgit2-1.9:amd64
 libgl1:amd64
 libgl1:i386
 libgl1-mesa-dri:amd64
@@ -996,6 +1008,7 @@ libhttp-daemon-perl
 libhttp-date-perl
 libhttp-message-perl
 libhttp-negotiate-perl
+libhttp-parser2.9:amd64
 libhunspell-1.7-0:amd64
 libhwasan0:amd64
 libhwloc-plugins:amd64
@@ -1034,6 +1047,7 @@ libio-stringy-perl
 libip4tc2:amd64
 libip6tc2:amd64
 libipc-system-simple-perl
+libipt2
 libisc-export1100:amd64
 libisl23:amd64
 libitext-java
@@ -1161,6 +1175,8 @@ libmateweather1t64:amd64
 libmaxminddb0:amd64
 libmbedcrypto16:amd64
 libmbedcrypto16:i386
+libmbedtls21:amd64
+libmbedx509-7:amd64
 libmbim-glib4:amd64
 libmbim-proxy
 libmbim-utils
@@ -1197,6 +1213,7 @@ libmtp9t64:amd64
 libmwaw-0.3-3:amd64
 libmysofa1:amd64
 libmythes-1.2-0:amd64
+libncurses-dev:amd64
 libncurses6:amd64
 libncurses6:i386
 libncursesw6:amd64
@@ -1252,6 +1269,8 @@ libnuma1:i386
 libnumbertext-1.0-0:amd64
 libnumbertext-data
 libnvme1t64
+libobjc-15-dev:amd64
+libobjc4:amd64
 libodbc2:i386
 libodbccr2:i386
 libodfgen-0.1-1:amd64
@@ -1331,6 +1350,7 @@ libpeas-common
 libpentaho-reporting-flow-engine-java
 libperl-dev:amd64
 libperl5.40:amd64
+libpfm4:amd64
 libpgm-5.3-0t64:amd64
 libpgm-5.3-0t64:i386
 libphonenumber8:amd64
@@ -1559,6 +1579,8 @@ libsoundtouch1:amd64
 libsoup-3.0-0:amd64
 libsoup-3.0-0:i386
 libsoup-3.0-common
+libsource-highlight-common
+libsource-highlight4t64:amd64
 libsoxr0:amd64
 libsoxr0:i386
 libspa-0.2-modules:amd64
@@ -1590,6 +1612,8 @@ libssl3t64:amd64
 libssl3t64:i386
 libstaroffice-0.0-0:amd64
 libstartup-notification0:amd64
+libstd-rust-1.90:amd64
+libstd-rust-dev:amd64
 libstdc++-15-dev:amd64
 libstdc++6:amd64
 libstdc++6:i386
@@ -1854,6 +1878,7 @@ libxml-twig-perl
 libxml-xpathengine-perl
 libxml2-16:amd64
 libxml2-16:i386
+libxml2-dev:amd64
 libxmlb2:amd64
 libxmlgraphics-commons-java
 libxmlsec1-1:amd64
@@ -1897,6 +1922,7 @@ libyuv0:i386
 libz-mingw-w64
 libz3-4:amd64
 libz3-4:i386
+libz3-dev:amd64
 libzbar0t64:amd64
 libze1:amd64
 libzimg2:amd64
@@ -1932,6 +1958,12 @@ linux-kbuild-6.0
 linux-kbuild-6.16.8+kali
 linux-libc-dev
 linux-sysctl-defaults
+lld-19
+llvm-19
+llvm-19-dev
+llvm-19-linker-tools
+llvm-19-runtime
+llvm-19-tools
 lm-sensors
 lmodern
 locales
@@ -2240,6 +2272,7 @@ python3-wadllib
 python3-webencodings
 python3-xdg
 python3-xlib
+python3-yaml
 python3-zipp
 python3-zmq
 python3.13
@@ -2282,6 +2315,14 @@ ruby3.3-dev:amd64
 ruby3.3-doc
 rubygems-integration
 runit-helper
+rust-all
+rust-analyzer
+rust-clippy
+rust-gdb
+rust-llvm
+rust-src
+rustc
+rustfmt
 samba-libs:amd64
 sane-utils
 screenfetch
