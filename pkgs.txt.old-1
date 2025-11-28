@@ -52,6 +52,7 @@ binutils-mingw-w64-i686
 binutils-mingw-w64-x86-64
 binutils-x86-64-linux-gnu
 bison
+blt
 blueman
 bluetooth
 bluez
@@ -83,7 +84,6 @@ caja-wallpaper
 calamares
 calamares-settings-debian
 calendar
-cargo
 chromium
 chromium-common
 chromium-sandbox
@@ -273,6 +273,7 @@ fonts-liberation-sans-narrow
 fonts-liberation2
 fonts-linuxlibertine
 fonts-lmodern
+fonts-mathjax
 fonts-noto-mono
 fonts-opensymbol
 fonts-quicksand
@@ -433,6 +434,8 @@ hwloc
 hyphen-en-us
 i965-va-driver:amd64
 i965-va-driver:i386
+idle
+idle-python3.13
 ieee-data
 ifupdown
 iio-sensor-proxy
@@ -899,7 +902,6 @@ libgio-2.0-dev:amd64
 libgio-2.0-dev-bin
 libgirepository-1.0-1:amd64
 libgirepository-2.0-0:amd64
-libgit2-1.9:amd64
 libgl1:amd64
 libgl1:i386
 libgl1-mesa-dri:amd64
@@ -942,9 +944,7 @@ libgomp1:i386
 libgpg-error-l10n
 libgpg-error0:amd64
 libgpg-error0:i386
-libgpgme11t64:amd64
 libgpgme45:amd64
-libgpgmepp6t64:amd64
 libgpgmepp7:amd64
 libgphoto2-6t64:amd64
 libgphoto2-6t64:i386
@@ -1026,7 +1026,6 @@ libhttp-daemon-perl
 libhttp-date-perl
 libhttp-message-perl
 libhttp-negotiate-perl
-libhttp-parser2.9:amd64
 libhunspell-1.7-0:amd64
 libhwasan0:amd64
 libhwloc-plugins:amd64
@@ -1089,6 +1088,7 @@ libjpeg62-turbo:i386
 libjs-angularjs
 libjs-jquery
 libjs-jquery-ui
+libjs-mathjax
 libjs-sphinxdoc
 libjs-underscore
 libjson-c4:amd64
@@ -1277,8 +1277,6 @@ libmateweather1t64:amd64
 libmaxminddb0:amd64
 libmbedcrypto16:amd64
 libmbedcrypto16:i386
-libmbedtls21:amd64
-libmbedx509-7:amd64
 libmbim-glib4:amd64
 libmbim-proxy
 libmbim-utils
@@ -1731,8 +1729,6 @@ libssl3t64:amd64
 libssl3t64:i386
 libstaroffice-0.0-0:amd64
 libstartup-notification0:amd64
-libstd-rust-1.90:amd64
-libstd-rust-dev:amd64
 libstdc++-15-dev:amd64
 libstdc++6:amd64
 libstdc++6:i386
@@ -1797,7 +1793,6 @@ libturbojpeg0:amd64
 libtwolame0:amd64
 libtwolame0:i386
 libtypes-serialiser-perl
-libu2f-udev
 libubsan1:amd64
 libuchardet0:amd64
 libudev-dev:amd64
@@ -2003,6 +1998,7 @@ libxmlb2:amd64
 libxmlgraphics-commons-java
 libxmlsec1-1:amd64
 libxmlsec1-nss1:amd64
+libxmlsec1-openssl1:amd64
 libxmu6:amd64
 libxmuu1:amd64
 libxnnpack0.20241108:amd64
@@ -2083,7 +2079,6 @@ live-boot-doc
 live-build
 live-config-doc
 live-manual-html
-lld-19
 llvm-19
 llvm-19-dev
 llvm-19-linker-tools
@@ -2212,6 +2207,7 @@ ntfs-3g
 numlockx
 ocl-icd-libopencl1:amd64
 ocl-icd-libopencl1:i386
+open-vm-tools
 openjdk-11-jre-headless:amd64
 openjdk-17-jre:amd64
 openjdk-17-jre-headless:amd64
@@ -2391,6 +2387,7 @@ python3-sphinx
 python3-sphinx-rtd-theme
 python3-sphinxcontrib.jquery
 python3-texttable
+python3-tk:amd64
 python3-typeguard
 python3-typing-extensions
 python3-uc-micro
@@ -2406,6 +2403,7 @@ python3-zmq
 python3.13
 python3.13-dev
 python3.13-minimal
+python3.13-tk
 qbittorrent
 qml-module-qtgraphicaleffects:amd64
 qml-module-qtqml:amd64
@@ -2465,14 +2463,6 @@ ruby3.3-dev:amd64
 ruby3.3-doc
 rubygems-integration
 runit-helper
-rust-all
-rust-analyzer
-rust-clippy
-rust-gdb
-rust-llvm
-rust-src
-rustc
-rustfmt
 samba-libs:amd64
 sane-utils
 screenfetch
@@ -2537,6 +2527,7 @@ timgm6mb-soundfont
 tix
 tk
 tk8.6
+tk8.6-blt2.5
 tree
 tzdata
 ucf
@@ -2626,6 +2617,7 @@ xxd
 xz-utils
 zenity
 zenity-common
+zerofree
 zip
 zlib1g:amd64
 zlib1g:i386
