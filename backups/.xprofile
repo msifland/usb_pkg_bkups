@@ -1,5 +1,7 @@
 #!/bin/sh
-#Command example: "cvt 1920x1000 60" in terminal will give you modeline to pasted below.
-xrandr --newmode "1920x957_60.00"  151.50  1920 2032 2232 2544  957 960 970 993 -hsync +vsync
-xrandr --addmode Virtual1 1920x957_60.00
-xrandr --output Virtual1 --mode 1920x957_60.00
+# The following two lines are for NVIDIA only(possibly for hdmi to work). Uncomment to use these lines.
+#xrandr --setprovideroutputsource NVIDIA-GO modesetting
+#xrandr --auto
+xrandr --newmode "1800x1012_60.00"  150.50  1800 1912 2096 2392  1012 1015 1025 1050 -hsync +vsync
+xrandr --addmode Virtual-1 1800x1012_60.00
+xrandr --output Virtual-1 --mode 1800x1012_60.00
