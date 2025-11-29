@@ -210,6 +210,7 @@ exim4-daemon-light
 exo-utils
 f2fs-tools
 fakeroot
+fastfetch
 fdisk
 ffmpegthumbnailer
 file
@@ -2087,6 +2088,7 @@ libyaml-0-2:amd64
 libyaml-cpp0.8:amd64
 libyuv0:amd64
 libyuv0:i386
+libyyjson0:amd64
 libz-mingw-w64
 libz3-4:amd64
 libz3-4:i386
