@@ -1,0 +1,6 @@
+Git key 12/3/25(password)
+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
+
+Make sure you use:
+git config --global credential.helper store
+	-this stores usernmae and password in linux
