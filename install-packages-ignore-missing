@@ -1,9 +1,0 @@
-#!/bin/bash
-# You installing from a list, missing packages from repos stop the install, this script prevents that and continues to install non-missing packages.
-export DEBIAN_FRONTEND=noninteractive
-#while IFS= read -r package; do sudo apt -y install "$package"; done < $HOME/usb_pkg_bkups/pkgs.txt
-
-# Then this runs back through them
-echo
-echo "Scanning packages, hold please..."
-xargs apt list 2>/dev/null < $HOME/usb_pkg_bkups/pkgs.txt | awk -F'/' '/\//{print $1}' | xargs sudo apt install -y
