@@ -1,7 +1,17 @@
 #!/bin/sh
-# The following two lines are for NVIDIA only(possibly for hdmi to work). Uncomment to use these lines.
-#xrandr --setprovideroutputsource NVIDIA-GO modesetting
-#xrandr --auto
-xrandr --newmode "1800x1012_60.00"  150.50  1800 1912 2096 2392  1012 1015 1025 1050 -hsync +vsync
-xrandr --addmode Virtual-1 1800x1012_60.00
-xrandr --output Virtual-1 --mode 1800x1012_60.00
+# Custom resolution – generated Sun Nov 30 12:22:50 PM CST 2025
+# Find the correct DISPLAY and XAUTHORITY at login time
+DISPLAY=$(w -h $(id -u) 2>/dev/null | awk '/[:][0-9][0-9]*[ ]/{print $3; exit}')
+export DISPLAY
+export XAUTHORITY="$HOME/.Xauthority"
+
+# Clean any previous instance of this mode
+xrandr --rmmode "1752x985_60.00" 2>/dev/null || true
+xrandr --delmode "eDP-1" "1752x985_60.00" 2>/dev/null || true
+
+# Create and apply the new mode
+xrandr --newmode "1752x985_60.00" 142.50  1752 1856 2040 2328  985 988 998 1022 -hsync +vsync
+xrandr --addmode "eDP-1" "1752x985_60.00"
+xrandr --output "eDP-1" --mode "1752x985_60.00" --primary
+
+sleep 1   # small delay helps on some drivers
