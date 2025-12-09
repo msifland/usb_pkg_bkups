@@ -2,4 +2,4 @@ Types: deb
 URIs: https://download.sublimetext.com/
 Suites: apt/stable/
 Components: 
-Signed-By: /etc/apt/trusted.gpg.d/sublimehq-archive.gpg
+Signed-By: /etc/apt/keyrings/sublimehq-archive.gpg
