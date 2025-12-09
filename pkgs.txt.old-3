@@ -63,6 +63,7 @@ bind9-host
 bind9-libs:amd64
 binutils
 binutils-common:amd64
+binutils-mingw-w64-base
 binutils-mingw-w64-i686
 binutils-mingw-w64-x86-64
 binutils-x86-64-linux-gnu
@@ -133,6 +134,7 @@ coinor-libcoinutils3v5:amd64
 coinor-libosi1v5:amd64
 colord
 colord-data
+conky-all
 conky-std
 console-setup
 console-setup-linux
@@ -472,12 +474,12 @@ grep
 groff-base
 grub-common
 grub-customizer
+grub-efi-amd64
 grub-efi-amd64-bin
 grub-efi-amd64-signed
 grub-efi-amd64-unsigned
 grub-pc
 grub-pc-bin
-grub2
 grub2-common
 gsettings-desktop-schemas
 gsmartcontrol
@@ -514,6 +516,7 @@ hwdata
 hwinfo
 hwloc
 hyphen-en-us
+i965-va-driver:amd64
 ibus-data
 ibverbs-providers:amd64
 id3
@@ -531,6 +534,7 @@ init-system-helpers
 initramfs-tools
 initramfs-tools-bin
 initramfs-tools-core
+intel-media-va-driver:amd64
 intel-microcode
 intltool
 intltool-debian
@@ -754,7 +758,7 @@ libbytesize1:amd64
 libbz2-1.0:amd64
 libc-bin
 libc-dev-bin
-libc-gconv-modules-extra
+libc-gconv-modules-extra:amd64
 libc-l10n
 libc6:amd64
 libc6-dev:amd64
@@ -1164,6 +1168,7 @@ libidn12:amd64
 libidn2-0:amd64
 libiec61883-0:amd64
 libieee1284-3t64:amd64
+libigdgmm12:amd64
 libijs-0.35:amd64
 libimagequant0:amd64
 libimath-3-1-29t64:amd64
@@ -1581,7 +1586,7 @@ libmime-types-perl
 libminizip1t64:amd64
 libmjpegutils-2.1-0t64:amd64
 libmm-glib0:amd64
-libmng1:amd64
+libmng2:amd64
 libmnl0:amd64
 libmodplug1:amd64
 libmodule-implementation-perl
@@ -2147,6 +2152,7 @@ libva-x11-2:amd64
 libva2:amd64
 libvariable-magic-perl
 libvdeplug2t64:amd64
+libvdpau-va-gl1:amd64
 libvdpau1:amd64
 libvidstab1.1:amd64
 libvirglrenderer1:amd64
@@ -3043,10 +3049,11 @@ user-setup
 util-linux
 util-linux-extra
 util-linux-locales
-uuid-dev:amd64
 uuid-runtime
+va-driver-all:amd64
 variety
 vbetool
+vdpau-driver-all:amd64
 vim-common
 vim-tiny
 virgl-server
