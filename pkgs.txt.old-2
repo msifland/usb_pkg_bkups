@@ -135,7 +135,6 @@ coinor-libosi1v5:amd64
 colord
 colord-data
 conky-all
-conky-std
 console-setup
 console-setup-linux
 coreutils
@@ -422,6 +421,7 @@ gir1.2-gtksource-300:amd64
 gir1.2-gtksource-4:amd64
 gir1.2-handy-1:amd64
 gir1.2-harfbuzz-0.0:amd64
+gir1.2-javascriptcoregtk-4.1:amd64
 gir1.2-keybinder-3.0
 gir1.2-matedesktop-2.0:amd64
 gir1.2-matemenu-2.0:amd64
@@ -437,6 +437,7 @@ gir1.2-secret-1:amd64
 gir1.2-soup-3.0:amd64
 gir1.2-tepl-6:amd64
 gir1.2-udisks-2.0:amd64
+gir1.2-webkit2-4.1:amd64
 gir1.2-wnck-3.0:amd64
 gir1.2-xmlb-2.0:amd64
 girepository-tools:amd64
@@ -491,6 +492,7 @@ gtk-doc-tools
 gtk-update-icon-cache
 gtk2-engines-pixbuf:amd64
 gtkhash
+gufw
 gvfs:amd64
 gvfs-backends
 gvfs-common
