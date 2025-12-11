@@ -146,7 +146,6 @@ cpp-12
 cpp-13
 cpp-13-x86-64-linux-gnu
 cpp-14
-cpp-14-for-host:amd64
 cpp-14-x86-64-linux-gnu
 cpp-15
 cpp-15-x86-64-linux-gnu
@@ -379,7 +378,6 @@ gcc-13-multilib
 gcc-13-x86-64-linux-gnu
 gcc-14
 gcc-14-base:amd64
-gcc-14-for-host:amd64
 gcc-14-x86-64-linux-gnu
 gcc-15
 gcc-15-base:amd64
@@ -2358,12 +2356,10 @@ linux-headers-6.12.31-amd64
 linux-headers-6.12.31-common
 linux-headers-6.12.57+deb13-amd64
 linux-headers-6.12.57+deb13-common
-linux-headers-6.16.8+kali-amd64
 linux-headers-6.16.8+kali-common
 linux-headers-amd64
 linux-image-6.12.31-amd64
 linux-image-6.12.57+deb13-amd64
-linux-image-6.16.8+kali-amd64
 linux-image-amd64
 linux-kbuild-6.12.31
 linux-kbuild-6.12.57+deb13
