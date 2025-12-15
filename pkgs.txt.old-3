@@ -400,17 +400,21 @@ geoclue-2.0
 gettext
 gettext-base
 ghostscript
+gimp
 gimp-data
 gir1.2-amtk-5:amd64
 gir1.2-atk-1.0:amd64
 gir1.2-atspi-2.0:amd64
 gir1.2-ayatanaappindicator3-0.1
+gir1.2-babl-0.1:amd64
 gir1.2-bamf-3
 gir1.2-caja-2.0:amd64
 gir1.2-eom-1.0
 gir1.2-freedesktop:amd64
 gir1.2-gdkpixbuf-2.0:amd64
+gir1.2-gegl-0.4:amd64
 gir1.2-gexiv2-0.10:amd64
+gir1.2-gimp-3.0:amd64
 gir1.2-girepository-3.0:amd64
 gir1.2-glib-2.0:amd64
 gir1.2-gst-plugins-base-1.0:amd64
@@ -467,6 +471,7 @@ gpg-wks-server
 gpgconf
 gpgsm
 gpgv
+graphviz
 grep
 groff-base
 grub-common
@@ -545,6 +550,7 @@ isa-support:amd64
 isc-dhcp-client
 isc-dhcp-common
 iso-codes
+isolinux
 iucode-tool
 iw
 java-common
@@ -644,6 +650,7 @@ libalgorithm-c3-perl
 libalgorithm-diff-perl
 libalgorithm-diff-xs-perl
 libalgorithm-merge-perl
+libamd3:amd64
 libao-common
 libao4:amd64
 libaom3:amd64
@@ -709,6 +716,7 @@ libb-hooks-endofscope-perl
 libb-hooks-op-check-perl:amd64
 libb2-1:amd64
 libbabeltrace1:amd64
+libbabl-0.1-0:amd64
 libbamf3-2t64:amd64
 libbase-java
 libbatik-java
@@ -774,6 +782,7 @@ libcairo2:amd64
 libcairomm-1.0-1v5:amd64
 libcairomm-1.16-1:amd64
 libcaja-extension1:amd64
+libcamd3:amd64
 libcamel-1.2-64t64:amd64
 libcanberra-gtk3-0:amd64
 libcanberra-gtk3-module:amd64
@@ -787,18 +796,24 @@ libcapstone5:amd64
 libcarp-clan-perl
 libcbor0.10:amd64
 libcc1-0:amd64
+libccolamd3:amd64
 libcddb2
 libcdio-cdda2t64:amd64
 libcdio-paranoia2t64:amd64
 libcdio19t64:amd64
 libcdparanoia0:amd64
 libcdr-0.1-1:amd64
+libcdt6:amd64
+libcfitsio10t64:amd64
+libcgraph8:amd64
+libcholmod5:amd64
 libchromaprint1:amd64
 libcinnamon-desktop4t64:amd64
 libcjson1:amd64
 libclamav12:amd64
 libclang-common-19-dev:amd64
 libclang-cpp19
+libclang-cpp21
 libclang-rt-19-dev
 libclang1-19
 libclass-c3-perl
@@ -1031,12 +1046,15 @@ libgedit-gtksourceview-300-3:amd64
 libgedit-gtksourceview-300-common
 libgedit-tepl-6-3:amd64
 libgedit-tepl-common
+libgegl-0.4-0t64:amd64
+libgegl-common
 libgexiv2-2:amd64
 libgfapi0:amd64
 libgfortran5:amd64
 libgfrpc0:amd64
 libgfxdr0:amd64
 libgif7:amd64
+libgimp-3.0-0:amd64
 libgio-2.0-dev-bin
 libgirepository-1.0-1:amd64
 libgirepository-2.0-0:amd64
@@ -1122,6 +1140,9 @@ libgupnp-igd-1.6-0:amd64
 libgusb2:amd64
 libgutenprint-common
 libgutenprint9
+libgvc7:amd64
+libgvplugin-gd8:amd64
+libgvpr2:amd64
 libgxps2t64:amd64
 libhandy-1-0:amd64
 libharfbuzz-gobject0:amd64
@@ -1511,6 +1532,7 @@ liblilv-0-0:amd64
 liblinear4:amd64
 liblirc-client0t64:amd64
 libllvm19:amd64
+libllvm21:amd64
 liblmdb0:amd64
 libloader-java
 liblocale-gettext-perl
@@ -1541,7 +1563,6 @@ liblz4-1:amd64
 liblzma-dev:amd64
 liblzma5:amd64
 liblzo2-2:amd64
-libmad0:amd64
 libmagic-mgc
 libmagic1t64:amd64
 libmagick++-7.q16-5:amd64
@@ -1613,6 +1634,8 @@ libmtp9t64:amd64
 libmujs3:amd64
 libmupdf25.1
 libmwaw-0.3-3:amd64
+libmypaint-1.5-1:amd64
+libmypaint-common
 libmysofa1:amd64
 libmythes-1.2-0:amd64
 libnamespace-autoclean-perl
@@ -1729,6 +1752,7 @@ libparse-recdescent-perl
 libparted-fs-resize0t64:amd64
 libparted2t64:amd64
 libpassim1:amd64
+libpathplan4:amd64
 libpcap0.8t64:amd64
 libpcaudio0:amd64
 libpci3:amd64
@@ -1926,6 +1950,7 @@ libreoffice-calc
 libreoffice-common
 libreoffice-core
 libreoffice-draw
+libreoffice-gnome
 libreoffice-gtk3
 libreoffice-help-common
 libreoffice-help-en-us
@@ -1939,6 +1964,7 @@ libreoffice-sdbc-hsqldb
 libreoffice-sdbc-mysql
 libreoffice-sdbc-postgresql
 libreoffice-style-colibre
+libreoffice-style-elementary
 libreoffice-uiconfig-base
 libreoffice-uiconfig-calc
 libreoffice-uiconfig-common
@@ -2120,6 +2146,7 @@ libuchardet0:amd64
 libudev1:amd64
 libudfread3:amd64
 libudisks2-0:amd64
+libumfpack6:amd64
 libunbound8:amd64
 libunibreak6:amd64
 libunicode-linebreak-perl
@@ -2194,6 +2221,7 @@ libwhereami0:amd64
 libwildmidi2:amd64
 libwine:amd64
 libwireplumber-0.5-0:amd64
+libwmf-0.2-7:amd64
 libwmflite-0.2-7:amd64
 libwnck-3-0:amd64
 libwnck-3-common
@@ -2266,6 +2294,7 @@ libxdgutilsbasedir1.0.1:amd64
 libxdgutilsdesktopentry1.0.1:amd64
 libxdmcp6:amd64
 libxdo3:amd64
+libxdot4:amd64
 libxerces2-java
 libxext6:amd64
 libxfce4panel-2.0-4
@@ -2384,6 +2413,11 @@ llvm-19-dev
 llvm-19-linker-tools
 llvm-19-runtime
 llvm-19-tools
+llvm-21
+llvm-21-dev
+llvm-21-linker-tools
+llvm-21-runtime
+llvm-21-tools
 llvm-runtime:amd64
 lm-sensors
 lmodern
@@ -2969,6 +3003,8 @@ ssl-cert
 sublime-text
 sudo
 switcheroo-control
+synaptic
+syslinux-common
 sysstat
 system-config-printer
 system-config-printer-common
@@ -2987,6 +3023,7 @@ tango-icon-theme
 tar
 task-desktop
 task-laptop
+task-mate-desktop
 task-ssh-server
 task-web-server
 tasksel
