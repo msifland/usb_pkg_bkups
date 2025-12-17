@@ -235,6 +235,7 @@ e2fsprogs
 ed
 efibootmgr
 eject
+elfutils
 emacsen-common
 enchant-2
 engrampa
@@ -522,6 +523,9 @@ hwloc
 hyphen-en-us
 i965-va-driver:amd64
 ibus-data
+ibus-gtk:amd64
+ibus-gtk3:amd64
+ibus-gtk4:amd64
 ibverbs-providers:amd64
 id3
 idle
@@ -674,6 +678,7 @@ libargon2-1:amd64
 libaribb24-0t64:amd64
 libasan6:amd64
 libasan8:amd64
+libasm1t64:amd64
 libasound2-data
 libasound2-plugins:amd64
 libasound2t64:amd64
