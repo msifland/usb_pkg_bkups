@@ -111,6 +111,7 @@ calendar
 catdoc
 chromium
 chromium-common
+chromium-driver
 chromium-sandbox
 cifs-utils
 cinnamon-desktop-data
@@ -256,6 +257,7 @@ fakeroot
 fastfetch
 fdisk
 ffmpegthumbnailer
+figlet
 file
 file-roller
 findutils
@@ -355,6 +357,7 @@ foomatic-db-engine
 fortune-mod
 fortunes-min
 frameworkintegration6
+freetds-common
 fstransform
 fuse3
 fwupd
@@ -564,6 +567,7 @@ john
 john-data
 jq
 jshon
+kali-defaults
 kbd
 kde-cli-tools
 kde-cli-tools-data
@@ -932,6 +936,7 @@ libev4t64:amd64
 libeval-closure-perl
 libevdev2:amd64
 libevent-2.1-7t64:amd64
+libevent-core-2.1-7t64:amd64
 libexception-class-perl
 libexecs1:amd64
 libexempi8:amd64
@@ -984,6 +989,8 @@ libfonts-java
 libformula-java
 libfreeaptx0:amd64
 libfreehand-0.1-1
+libfreerdp-client3-3:amd64
+libfreerdp3-3:amd64
 libfreetype6:amd64
 libfribidi0:amd64
 libfstrm0:amd64
@@ -1596,6 +1603,7 @@ libnettle8t64:amd64
 libnewt0.52:amd64
 libnfnetlink0:amd64
 libnfs14:amd64
+libnfsidmap1:amd64
 libnftables1:amd64
 libnftnl11:amd64
 libnghttp2-14:amd64
@@ -2444,7 +2452,9 @@ network-manager
 network-manager-applet
 network-manager-gnome
 network-manager-l10n
+nfs-common
 nftables
+nikto
 nm-connection-editor
 nmap
 nmap-common
@@ -2562,15 +2572,18 @@ pv
 python-apt-common
 python-babel-localedata
 python-caja-common
+python-matplotlib-data
 python3
 python3-alabaster
 python3-anyio
 python3-apt
+python3-argcomplete
 python3-autocommand
 python3-babel
 python3-bcrypt
 python3-blinker
 python3-brlapi:amd64
+python3-brotli
 python3-bs4
 python3-cairo
 python3-caja
@@ -2612,6 +2625,7 @@ python3-jinja2
 python3-jwt
 python3-lazr.restfulclient
 python3-lazr.uri
+python3-ldb
 python3-libevdev
 python3-linkify-it
 python3-louis
@@ -2626,13 +2640,16 @@ python3-more-itertools
 python3-msgpack
 python3-musicbrainzngs
 python3-mutagen
+python3-numpy
 python3-oauthlib
 python3-olefile
 python3-openshot
+python3-openssl
 python3-orjson
 python3-packaging
 python3-pexpect
 python3-pil:amd64
+python3-pil.imagetk:amd64
 python3-pkg-resources
 python3-psutil
 python3-ptyprocess
@@ -2656,6 +2673,7 @@ python3-retry
 python3-rich
 python3-rlpycairo
 python3-roman-numerals
+python3-samba
 python3-sentry-sdk
 python3-setproctitle:amd64
 python3-setuptools
@@ -2669,6 +2687,9 @@ python3-speechd
 python3-sphinx
 python3-sphinx-rtd-theme
 python3-sphinxcontrib.jquery
+python3-sympy
+python3-talloc:amd64
+python3-tdb
 python3-texttable
 python3-tk
 python3-tornado
@@ -2679,6 +2700,7 @@ python3-uno
 python3-urllib3
 python3-wadllib
 python3-webencodings
+python3-wheel
 python3-xdg
 python3-xlib
 python3-xlrd
@@ -2776,6 +2798,7 @@ readline-common
 reiserfsprogs
 rfkill
 ristretto
+rpcbind
 rpcsvc-proto
 rsync
 rsyslog
@@ -2800,6 +2823,9 @@ ruby3.3-dev:amd64
 ruby3.3-doc
 rubygems-integration
 runit-helper
+samba
+samba-common
+samba-common-bin
 samba-libs:amd64
 sane-airscan
 sane-utils
@@ -2822,6 +2848,7 @@ shim-unsigned:amd64
 signon-plugin-oauth2
 slick-greeter
 smartmontools
+smbclient
 snapd
 socat
 software-properties-common
@@ -2835,6 +2862,7 @@ speech-dispatcher-audio-plugins:amd64
 speech-dispatcher-espeak-ng
 sphinx-common
 sphinx-rtd-theme-common
+sqlmap
 squashfs-tools
 sqv
 sse3-support
@@ -2869,6 +2897,7 @@ tasksel
 tasksel-data
 tcl
 tcl8.6
+tdb-tools
 tex-common
 tex-gyre
 texlive
@@ -2885,6 +2914,7 @@ texlive-luatex
 texlive-pictures
 texlive-plain-generic
 texlive-science
+theharvester
 thin-provisioning-tools
 thunar
 thunar-data
@@ -2906,6 +2936,8 @@ ucf
 udev
 udisks2
 ufw
+unicode-data
+unicornscan
 uno-libs-private
 untex
 unzip
@@ -2937,6 +2969,7 @@ wamerican
 wayland-utils
 webp-pixbuf-loader:amd64
 wget
+whatweb
 whiptail
 whois
 wine
