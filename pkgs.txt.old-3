@@ -8,6 +8,7 @@ acpi-support-base
 acpid
 adduser
 adwaita-icon-theme
+afdko-bin
 aha
 aircrack-ng
 alsa-topology-conf
@@ -135,7 +136,6 @@ coinor-libosi1v5:amd64
 colord
 colord-data
 conky-all
-console-common
 console-data
 coreutils
 cpio
@@ -257,7 +257,6 @@ fakeroot
 fastfetch
 fdisk
 ffmpegthumbnailer
-figlet
 file
 file-roller
 findutils
@@ -303,6 +302,7 @@ firmware-nvidia-graphics
 firmware-nvidia-gsp
 firmware-nvidia-tesla-535-gsp
 firmware-nvidia-tesla-gsp
+firmware-qcom-dsp
 firmware-qcom-media
 firmware-qcom-soc
 firmware-qlogic
@@ -357,7 +357,6 @@ foomatic-db-engine
 fortune-mod
 fortunes-min
 frameworkintegration6
-freetds-common
 fstransform
 fuse3
 fwupd
@@ -387,6 +386,7 @@ gcc-15-base:amd64
 gcc-15-for-host:amd64
 gcc-15-multilib
 gcc-15-x86-64-linux-gnu
+gcc-16-base:amd64
 gcc-mingw-w64-base
 gcc-mingw-w64-i686-win32
 gcc-mingw-w64-i686-win32-runtime
@@ -455,6 +455,8 @@ git-man
 glib-networking:amd64
 glib-networking-common
 glib-networking-services
+glycin-loaders
+glycin-thumbnailers
 gnome-accessibility-themes
 gnome-disk-utility
 gnome-icon-theme
@@ -567,7 +569,6 @@ john
 john-data
 jq
 jshon
-kali-defaults
 kbd
 kde-cli-tools
 kde-cli-tools-data
@@ -642,6 +643,7 @@ libalgorithm-diff-perl
 libalgorithm-diff-xs-perl
 libalgorithm-merge-perl
 libamd3:amd64
+libantlr4-runtime4.9:amd64
 libao-common
 libao4:amd64
 libaom3:amd64
@@ -682,7 +684,6 @@ libatrilview3t64:amd64
 libatspi2.0-0t64:amd64
 libattr1:amd64
 libaudclient2:amd64
-libaudio2:amd64
 libaudit-common
 libaudit1:amd64
 libauthen-sasl-perl
@@ -695,7 +696,6 @@ libavc1394-0:amd64
 libavcodec61:amd64
 libavcodec62:amd64
 libavfilter11:amd64
-libavformat61:amd64
 libavformat62:amd64
 libavif-gdk-pixbuf:amd64
 libavif16:amd64
@@ -739,10 +739,12 @@ libbluray3:amd64
 libboost-chrono1.88.0:amd64
 libboost-filesystem1.88.0:amd64
 libboost-iostreams1.83.0:amd64
-libboost-locale1.83.0:amd64
+libboost-iostreams1.90.0:amd64
+libboost-locale1.90.0:amd64
 libboost-program-options1.88.0:amd64
 libboost-thread1.83.0:amd64
 libboost-thread1.88.0:amd64
+libboost-thread1.90.0:amd64
 libbox2d2:amd64
 libbpf1:amd64
 libbrlapi0.8:amd64
@@ -827,12 +829,12 @@ libcommons-collections3-java
 libcommons-io-java
 libcommons-logging-java
 libcommons-parent-java
+libcomposefs1:amd64
 libconfig++11:amd64
 libconfig11:amd64
 libcpuinfo0:amd64
 libcpupower1
 libcrack2:amd64
-libcrypt-dev:amd64
 libcrypt-rc4-perl
 libcrypt-urandom-perl
 libcrypt1:amd64
@@ -888,7 +890,6 @@ libdist-checkconflicts-perl
 libdjvulibre-text
 libdjvulibre21:amd64
 libdmtx0t64:amd64
-libdnnl3.6:amd64
 libdotconf0:amd64
 libdouble-conversion3:amd64
 libdpkg-perl
@@ -903,6 +904,7 @@ libdv4t64:amd64
 libdvdnav4:amd64
 libdvdread8t64:amd64
 libdw1t64:amd64
+libdwarves1:amd64
 libdynaloader-functions-perl
 libe-book-0.1-1:amd64
 libebackend-1.2-11t64:amd64
@@ -953,6 +955,7 @@ libexttextcat-data
 libextutils-depends-perl
 libfaad2:amd64
 libfakeroot:amd64
+libfarmhash0:amd64
 libfastjson4:amd64
 libfbclient2:amd64
 libfdisk1:amd64
@@ -989,8 +992,6 @@ libfonts-java
 libformula-java
 libfreeaptx0:amd64
 libfreehand-0.1-1
-libfreerdp-client3-3:amd64
-libfreerdp3-3:amd64
 libfreetype6:amd64
 libfribidi0:amd64
 libfstrm0:amd64
@@ -1005,7 +1006,7 @@ libgail18t64:amd64
 libgarcon-1-0:amd64
 libgarcon-common
 libgarcon-gtk3-1-0:amd64
-libgav1-1:amd64
+libgav1-2:amd64
 libgbm1:amd64
 libgc1:amd64
 libgcc-11-dev:amd64
@@ -1063,6 +1064,7 @@ libglut3.12:amd64
 libglvnd0:amd64
 libglx-mesa0:amd64
 libglx0:amd64
+libglycin-2-0:amd64
 libgme0:amd64
 libgmp-dev:amd64
 libgmp10:amd64
@@ -1123,7 +1125,7 @@ libgudev-1.0-0:amd64
 libgumbo3:amd64
 libgupnp-1.6-0:amd64
 libgupnp-igd-1.6-0:amd64
-libgusb2:amd64
+libgusb2a:amd64
 libgutenprint-common
 libgutenprint9
 libgvc7:amd64
@@ -1137,6 +1139,7 @@ libharfbuzz-icu0:amd64
 libharfbuzz-subset0:amd64
 libharfbuzz0b:amd64
 libhd21t64:amd64
+libheif-plugin-aomenc:amd64
 libheif-plugin-dav1d:amd64
 libheif-plugin-libde265:amd64
 libheif1:amd64
@@ -1167,6 +1170,7 @@ libibverbs1:amd64
 libical3t64:amd64
 libice6:amd64
 libicu76:amd64
+libicu78:amd64
 libid3tag0:amd64
 libidn12:amd64
 libidn2-0:amd64
@@ -1450,7 +1454,7 @@ libkpipewire-data
 libkpipewire6:amd64
 libkpipewiredmabuf6:amd64
 libkpipewirerecord6:amd64
-libkpmcore12:amd64
+libkpmcore13:amd64
 libkrb5-3:amd64
 libkrb5support0:amd64
 libksba8:amd64
@@ -1550,7 +1554,7 @@ libmime-charset-perl
 libmime-lite-perl
 libmime-types-perl
 libminizip1t64:amd64
-libmjpegutils-2.1-0t64:amd64
+libmjpegutils-2.2-0:amd64
 libmm-glib0:amd64
 libmng2:amd64
 libmnl0:amd64
@@ -1563,11 +1567,11 @@ libmp3lame0:amd64
 libmpc3:amd64
 libmpcdec6:amd64
 libmpeg2-4:amd64
-libmpeg2encpp-2.1-0t64:amd64
+libmpeg2encpp-2.2-0:amd64
 libmpfi0:amd64
 libmpfr6:amd64
 libmpg123-0t64:amd64
-libmplex2-2.1-0t64:amd64
+libmplex2-2.2-0:amd64
 libmro-compat-perl
 libmsgraph-1-1:amd64
 libmspack0t64:amd64
@@ -1577,7 +1581,7 @@ libmtp-common
 libmtp-runtime
 libmtp9t64:amd64
 libmujs3:amd64
-libmupdf25.1
+libmupdf27.0
 libmwaw-0.3-3:amd64
 libmypaint-1.5-1:amd64
 libmypaint-common
@@ -1628,10 +1632,11 @@ libnss-mdns:amd64
 libnss-mymachines:amd64
 libnss3:amd64
 libntfs-3g89t64:amd64
+libntlm0:amd64
 libnuma1:amd64
 libnumbertext-1.0-0:amd64
 libnumbertext-data
-libnvme1t64
+libnvme1t64:amd64
 libobjc-15-dev:amd64
 libobjc4:amd64
 libodbc2:amd64
@@ -1641,9 +1646,6 @@ liboeffis1:amd64
 libogg0:amd64
 libole-storage-lite-perl
 libonig5:amd64
-libonnx1t64:amd64
-libonnxruntime-providers:amd64
-libonnxruntime1.21:amd64
 libopenal-data
 libopenal1:amd64
 libopencore-amrnb0:amd64
@@ -1657,12 +1659,12 @@ libopenh264-8:amd64
 libopenjp2-7:amd64
 libopenmpt0t64:amd64
 libopenni2-0:amd64
-libopenshot-audio9t64:amd64
-libopenshot25t64:amd64
+libopenshot-audio10:amd64
+libopenshot28:amd64
 libopus0:amd64
 liborc-0.4-0t64:amd64
-liborcus-0.20-0:amd64
-liborcus-parser-0.20-0:amd64
+liborcus-0.21-0:amd64
+liborcus-parser-0.21-0:amd64
 libosp5
 libostree-1-1:amd64
 libp11-kit0:amd64
@@ -1704,7 +1706,7 @@ libpcre2-16-0:amd64
 libpcre2-8-0:amd64
 libpcsclite1:amd64
 libpdfbox-java
-libpeas-1.0-0:amd64
+libpeas-1.0-1:amd64
 libpeas-common
 libpentaho-reporting-flow-engine-java
 libperl5.40:amd64
@@ -1718,8 +1720,8 @@ libpipewire-0.3-common
 libpipewire-0.3-modules:amd64
 libpixie-java
 libpixman-1-0:amd64
-libpkgconf3:amd64
-libplacebo351:amd64
+libpkgconf7:amd64
+libplacebo360:amd64
 libplist-2.0-4:amd64
 libplymouth5:amd64
 libpmem1:amd64
@@ -1897,7 +1899,7 @@ librole-tiny-perl
 librsvg2-2:amd64
 librsvg2-common:amd64
 librtmp1:amd64
-librubberband2:amd64
+librubberband3:amd64
 libruby:amd64
 libruby3.3:amd64
 libsac-java
@@ -1924,7 +1926,7 @@ libserd-0-0:amd64
 libserializer-java
 libservlet-api-java
 libservlet3.1-java
-libsframe2:amd64
+libsframe3:amd64
 libsgutils2-1.48:amd64
 libsharpyuv0:amd64
 libshine3:amd64
@@ -1935,7 +1937,7 @@ libsigc++-3.0-0:amd64
 libsignon-plugins-common1:amd64
 libsignon-qt6-1:amd64
 libsimdutf27
-libsimdutf29:amd64
+libsimdutf31:amd64
 libslang2:amd64
 libslirp0:amd64
 libsm6:amd64
@@ -1946,6 +1948,7 @@ libsndfile1:amd64
 libsndio7.0:amd64
 libsnmp-base
 libsnmp40t64:amd64
+libsnmp45:amd64
 libsodium23:amd64
 libsombok3:amd64
 libsonic0:amd64
@@ -1992,7 +1995,6 @@ libsuitesparseconfig7:amd64
 libsvtav1enc2:amd64
 libswresample5:amd64
 libswresample6:amd64
-libswscale8:amd64
 libswscale9:amd64
 libsynctex2:amd64
 libsys-hostname-long-perl
@@ -2009,6 +2011,7 @@ libtcl8.6:amd64
 libtdb1:amd64
 libteamdctl0:amd64
 libteckit0:amd64
+libtensorflow-lite2.14.1:amd64
 libtevent0t64:amd64
 libtexlua53-5:amd64
 libtext-charwidth-perl:amd64
@@ -2082,7 +2085,6 @@ libva-x11-2:amd64
 libva2:amd64
 libvariable-magic-perl
 libvdeplug2t64:amd64
-libvdpau-va-gl1:amd64
 libvdpau1:amd64
 libvidstab1.1:amd64
 libvirglrenderer1:amd64
@@ -2097,6 +2099,7 @@ libvorbisenc2:amd64
 libvorbisfile3:amd64
 libvpl2
 libvpx11:amd64
+libvpx12:amd64
 libvte-2.91-0:amd64
 libvte-2.91-common
 libvulkan1:amd64
@@ -2240,7 +2243,6 @@ libxmlsec1-nss1:amd64
 libxmlsec1-openssl1:amd64
 libxmu6:amd64
 libxmuu1:amd64
-libxnnpack0.20241108:amd64
 libxnvctrl0:amd64
 libxpm4:amd64
 libxpresent1:amd64
@@ -2282,31 +2284,37 @@ libzstd1:amd64
 libzvbi-common
 libzvbi0t64:amd64
 libzxcvbn0:amd64
-libzxing3:amd64
+libzxing4:amd64
 libzzip-0-13t64:amd64
 lightdm
 lightdm-gtk-greeter
 lightdm-settings
 linux-base
+linux-base-6.19.6+deb14+1-amd64
+linux-base-amd64
+linux-binary-6.19.6+deb14+1-amd64
 linux-cpupower
 linux-headers-6.12.31-amd64
 linux-headers-6.12.31-common
-linux-headers-6.17.11+deb14-amd64
 linux-headers-6.17.11+deb14-common
 linux-headers-6.17.11+deb14-rt-amd64
 linux-headers-6.17.12+deb14-amd64
 linux-headers-6.17.12+deb14-common
+linux-headers-6.19.6+deb14+1-amd64
+linux-headers-6.19.6+deb14+1-common
 linux-headers-amd64
 linux-image-6.12.31-amd64
-linux-image-6.12.57+deb13-amd64
 linux-image-6.17.11+deb14-amd64
 linux-image-6.17.11+deb14-rt-amd64
 linux-image-6.17.12+deb14-amd64
+linux-image-6.19.6+deb14+1-amd64
 linux-image-amd64
 linux-kbuild-6.12.31
 linux-kbuild-6.17.11+deb14
 linux-kbuild-6.17.12+deb14
+linux-kbuild-6.19.6+deb14+1
 linux-libc-dev
+linux-modules-6.19.6+deb14+1-amd64
 linux-sysctl-defaults
 live-boot
 live-boot-doc
@@ -2412,8 +2420,6 @@ menu
 mesa-libgallium:amd64
 mesa-utils
 mesa-utils-bin:amd64
-mesa-va-drivers:amd64
-mesa-vdpau-drivers:amd64
 mime-support
 mingw-w64-common
 mingw-w64-i686-dev
@@ -2455,7 +2461,6 @@ network-manager-gnome
 network-manager-l10n
 nfs-common
 nftables
-nikto
 nm-connection-editor
 nmap
 nmap-common
@@ -2484,6 +2489,9 @@ openssl-provider-legacy
 orca
 os-prober
 ovmf
+ovmf-amdsev
+ovmf-generic
+ovmf-inteltdx
 oxygen-sounds
 p11-kit
 p11-kit-modules:amd64
@@ -2573,12 +2581,10 @@ pv
 python-apt-common
 python-babel-localedata
 python-caja-common
-python-matplotlib-data
 python3
 python3-alabaster
 python3-anyio
 python3-apt
-python3-argcomplete
 python3-autocommand
 python3-babel
 python3-bcrypt
@@ -2641,7 +2647,6 @@ python3-more-itertools
 python3-msgpack
 python3-musicbrainzngs
 python3-mutagen
-python3-numpy
 python3-oauthlib
 python3-olefile
 python3-openshot
@@ -2688,7 +2693,6 @@ python3-speechd
 python3-sphinx
 python3-sphinx-rtd-theme
 python3-sphinxcontrib.jquery
-python3-sympy
 python3-talloc:amd64
 python3-tdb
 python3-texttable
@@ -2863,7 +2867,6 @@ speech-dispatcher-audio-plugins:amd64
 speech-dispatcher-espeak-ng
 sphinx-common
 sphinx-rtd-theme-common
-sqlmap
 squashfs-tools
 sqv
 sse3-support
@@ -2915,7 +2918,6 @@ texlive-luatex
 texlive-pictures
 texlive-plain-generic
 texlive-science
-theharvester
 thin-provisioning-tools
 thunar
 thunar-data
@@ -2938,7 +2940,6 @@ udev
 udisks2
 ufw
 unicode-data
-unicornscan
 uno-libs-private
 untex
 unzip
@@ -2960,7 +2961,6 @@ uuid-runtime
 va-driver-all:amd64
 variety
 vbetool
-vdpau-driver-all:amd64
 vim-common
 vim-tiny
 virgl-server
@@ -2970,7 +2970,6 @@ wamerican
 wayland-utils
 webp-pixbuf-loader:amd64
 wget
-whatweb
 whiptail
 whois
 wine
@@ -2992,6 +2991,7 @@ x11proto-dev
 x11proto-record-dev
 x11proto-xext-dev
 xapp-sn-watcher
+xapp-symbolic-icons
 xapps-common
 xauth
 xbitmaps
